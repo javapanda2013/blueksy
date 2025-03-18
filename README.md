@@ -1,2 +1,2 @@
-# blueksy
+# bluesky
 bluesky API Test

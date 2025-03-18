@@ -10,6 +10,7 @@ client = Client(base_url='https://bsky.social')
 # getpass使用
 #blueskypass = getpass.getpass(prompt='Password: ')
 # osの環境変数使用
+print("環境変数を取得する")
 blueskypass = os.environ['BLUE_SKY_PASSWORD']
 
 client.login(login='okujotamama.bsky.social',password=blueskypass)
